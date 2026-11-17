@@ -16,7 +16,7 @@ Il repository MONO contiene già queste entità nel modello SQL:
 
 Il prototipo FamilyWall salva le modifiche in `localStorage`, quindi i dati restano sul singolo browser.
 
-L'API attuale di MONO costruisce lo stato applicativo in memoria all'avvio (`createDefaultState()` in `services/api/src/server.ts`). Questo non basta per la condivisione affidabile tra dispositivi e non deve essere trattato come archivio permanente.
+L'API attuale di MONO costruisce lo stato applicativo in memoria all'avvio (`createDefaultState()` in `services/api/src/server.ts`). Questo non basta per la condivisione affidabile tra dispositivi e non deve essere trattato come archivio permanente. Inoltre, al momento l'identità API è ricavata da header inviati dal client e CORS consente qualsiasi origine: queste impostazioni sono adatte solo a una demo e devono essere sostituite da sessioni autenticate e controlli server-side prima di collegare dati familiari reali.
 
 Per attivare la sincronizzazione serve prima collegare il servizio MONO al database PostgreSQL persistente e applicare autenticazione e autorizzazione ai suoi endpoint. Il browser FamilyWall non deve ricevere la credenziale database.
 
