@@ -143,3 +143,7 @@ Le entità devono avere identificativi stabili, date di creazione/modifica e reg
 ## Privacy
 
 Questo repository è pubblico. Non inserire qui dati personali reali, credenziali, informazioni sanitarie o documenti della famiglia. Usare dati fittizi negli esempi e nelle schermate dimostrative.
+
+## Collegamento a MONO
+
+- [Piano di integrazione e proprietà dei dati](docs/INTEGRATION.md)
