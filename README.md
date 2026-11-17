@@ -2,6 +2,10 @@
 
 App familiare condivisa, ispirata alle funzioni di FamilyWall e progettata per l'uso quotidiano della famiglia. Il progetto segue il MONO Design System e potrà integrarsi con MONO Ecosystem.
 
+## Prototipo
+
+È disponibile una prima dashboard responsive in [index.html](index.html). Mostra l'idea della schermata “Oggi” su smartphone e desktop. È un prototipo front-end con dati dimostrativi: le modifiche non vengono salvate e autenticazione, sincronizzazione, notifiche e backend non sono ancora implementati.
+
 ## Obiettivo
 
 Dare a ogni componente della famiglia una vista semplice e affidabile di impegni, attività, spesa, pasti e scadenze. La schermata iniziale deve rispondere rapidamente a tre domande:
